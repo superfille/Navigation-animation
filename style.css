@@ -1,0 +1,30 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.app {
+  margin: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.nav--item {
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav__border {
+  height: 2px;
+  background-color: red;
+}
+
+.nav__border__selected {
+  position: absolute;
+  height: 2px;
+  background-color: yellow;
+  transition: .5s ease left;
+}
